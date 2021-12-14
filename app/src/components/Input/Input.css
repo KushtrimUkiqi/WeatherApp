@@ -1,0 +1,27 @@
+#input
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;   
+    height: 6vh;
+}
+
+#input > * 
+{
+    height: 5vh;
+    margin: 0 0.5vw;
+}
+
+#input input 
+{
+    border-radius: 2px;
+    
+}
+
+#input button 
+{
+    border-radius: 2px;
+    background-color:crimson;
+    color: white;
+    width: 7vw;
+}
