@@ -7,7 +7,7 @@ export default function Container({list,celciusAsUnit}) {
             <div id='currentStats'>
             <div id="left">
                 <img src={list.currentWeather.icon} alt=""></img>
-                <h1>{celciusAsUnit ? list.currentWeather.temp_celcius :  list.currentWeather.temp_fahrenheit}</h1>
+                <h1>{celciusAsUnit ? list.currentWeather.temp_celcius + ' \u00b0 C':  list.currentWeather.temp_fahrenheit + ' \u00b0 F'}</h1>
                 <p>{list.currentWeather.weather_description}</p>
 
             </div>

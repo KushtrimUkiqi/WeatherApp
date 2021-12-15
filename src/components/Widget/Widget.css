@@ -70,3 +70,41 @@ h5
     border-top: 1px solid tomato;
     border-bottom: 1px solid tomato;
 }
+
+@media screen and (max-width: 768px)
+{
+    .widget
+    {
+        width:80vw;
+        margin: auto;
+    }
+        
+   
+    .widget img
+    {
+        width: 30vw;
+    }
+
+    .widget h4
+    {
+
+        font-size: 20px;
+        width: 14vw;
+        height: 8vh;
+
+    }
+
+
+    .widget p , .widget h5
+    {
+
+        font-size: 17px;
+
+    }
+
+    .widget span
+{display: block;
+
+}
+
+}

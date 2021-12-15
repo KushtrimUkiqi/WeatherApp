@@ -33,3 +33,15 @@
     text-align:center;
 }
 
+
+@media screen and (max-width: 768px)
+{
+    #control > * 
+{
+    margin: 0 1vw;
+}
+    #control button 
+    {
+       width: 20vw;
+    }
+}

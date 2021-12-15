@@ -53,8 +53,26 @@
 
 @media screen and (max-width: 768px)
 {
+    #container
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
     #widgets
     {
-        flex-direction: column;
+        
+        flex-direction: row;
+        position:absolute;
+        width: 99%;
+        margin:25vh auto auto auto;
+     
     }
+
+    #widgets > *
+    {
+        height: 55vh;
+    }
+
+    
 }

@@ -10,3 +10,13 @@
   grid-template-rows: 1fr 9fr;
   margin-top:3vh;
 }
+
+
+@media screen and (max-width: 768px)
+{
+    .App
+    {
+        width:100vw;
+        margin: auto;
+    }
+}
