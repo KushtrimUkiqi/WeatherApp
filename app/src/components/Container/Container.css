@@ -1,9 +1,60 @@
 #container
 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 7fr;
+    width: 90%;
+    margin:0 auto;
+}
+
+
+#currentStats
+{
+    background-color: rgba(201, 206, 209, 0.308);
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    width: 30%;
+    box-shadow: 0 0 30px 30px rgba(201, 206, 209, 0.308);
+    margin: auto;
+}
+
+#left > * , #right > *
+{
+    padding: 0;
+    margin:0;
+
+}
+
+#right
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+}
+
+#right > p
+{
+    font-size: 15px;
+    padding-left: 2vw;
+    font-weight: bolder;
+}
+
+
+#widgets
+{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    margin:0 auto;
-    border: 1px solid white;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    #widgets
+    {
+        flex-direction: column;
+    }
 }

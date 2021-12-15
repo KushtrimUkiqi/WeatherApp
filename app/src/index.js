@@ -16,3 +16,9 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
+export default function changeVideoSpeed(){
+  document.querySelector('#video').playbackRate = 16;
+  setTimeout(()=>
+  {document.querySelector('#video').playbackRate = 1.00;},2000);
+};
+

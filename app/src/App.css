@@ -1,11 +1,12 @@
 .App {
+  position: absolute;
+  margin-left: 10vw; 
   padding: 3vh 0;
   text-align: center;
   width: 80vw;
-  height: 80vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 9fr;
-  background-color: #46728282 ;
-  margin-top:10vh;
+  margin-top:3vh;
 }

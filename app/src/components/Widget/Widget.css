@@ -1,6 +1,72 @@
 .widget
 {
     height: 50vh;
-    width: 15vw;
-    border: 1px solid white;
+    width: 17vw;
+    background-color:rgba(39, 77, 107, 0.733) ;
+    padding: 2vh 1vh;
+    border-radius: 3px;
+    margin:0 2vw;
+    color: white;
+    text-shadow: 1px 1px 1px 1px black;
+    text-align: center;
+    font-size: bold;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap:0;
+}
+
+
+
+#temperature
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+#temperature > *
+{
+    padding:0;
+    margin:0;
+}
+
+.widget img
+{
+    width: 7vw;
+    height: 14vh;
+}
+
+.widget h4
+{
+
+    width: 14vw;
+    height: 7vh;
+    margin-top: 2vh;
+    align-self: center;
+
+}
+
+
+.widget p 
+{
+
+    font-size: 13px;
+
+}
+
+.widget span
+{
+    background-color: crimson;
+    padding: 0 1vw;
+
+}
+
+h5
+{
+    border-top: 1px solid tomato;
+    border-bottom: 1px solid tomato;
 }
